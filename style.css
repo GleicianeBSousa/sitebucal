@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: #001C43;
+    padding: 20px;
+    text-align: center;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    nav {
+        width: 40%;
+        border: solid none;
+        color: #FFFFFF;
+    }
+
+    ul {
+        justify-content: space-evenly;
+        list-style: none;
+    }
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    :hover{
+        color:black
+    }
+
+}
+
+.botao{
+    color: solid #FFFFFF;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.introducao {
+    border: solid red none;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    p{
+        width: 80%;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    } 
+}
+
+.higieneBucal{
+    Border: solid green none;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    p{
+        width: 80%;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    } 
+}
+
+.conclusao{
+    border: red none;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    p{
+        width: 80%;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    } 
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+    display: block; /* centraliza horizontalmente */    
+    border: 1px solid #000;
+    border-radius: 20px; /* cantos arredondados */
+}
+
+
+footer{
+    background-color: #001C43;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+      color:#FFFFFF;
+      font-size: 1.25rem;
+      font-weight: 400;
+    }
+}
+
+
